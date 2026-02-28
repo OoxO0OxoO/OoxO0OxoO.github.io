@@ -1,0 +1,28 @@
+/* Styling for the Spring Break Countdown */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+}
+
+#spring-break-container {
+    text-align: center;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    padding: 30px;
+    border-radius: 20px;
+    background: linear-gradient(135s, #74ebd5 0%, #9face6 100%);
+    color: white;
+    max-width: 500px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+#countdown-timer {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
